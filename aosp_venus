@@ -1,0 +1,13 @@
+# Clean Flash
+- fastboot flash boot_ab boot.img
+- fastboot flash vendor_boot_ab vendor_boot.img
+- Go to recovery (long press volume+ and power button)
+- Factory reset
+- Reboot recovery
+- Flash the ROM via adb sideload
+- Reboot
+
+# Dirty Flash
+- Go to recovery
+- Flash the ROM via adb sideload
+- Reboot 
